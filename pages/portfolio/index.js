@@ -53,7 +53,7 @@ export default function Portfolio() {
           sitelink=""
         />
         <Projbox
-          imagesrc="/janadhi_thumbnail.pngj"
+          imagesrc="/janadhi_thumbnail.png"
           imagealt="Janadhi & Company was a Company I worked for!"
           codestack="HTML / CSS / JavaScript / Bootstrap"
           projectname="School Project: Janadhi & Company"
