@@ -4,7 +4,7 @@ import { motion, useAnimation } from "framer-motion";
 export default function FlyInRight(props) {
   const animationControl = useAnimation();
   const { inView, entry, ref } = useInView();
-  console.log(inView);
+  //console.log(inView);
   if (inView) {
     animationControl.start({
       x: 0,
