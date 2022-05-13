@@ -31,7 +31,7 @@ export default function Portfolio() {
       </div>
       <div className="container">
         <Projbox
-          imagesrc="/mikesenh_thumbnail.png"
+          imagesrc="/thumbnail/mikesenh_thumbnail.png"
           imagealt="mikesenh mikes first project"
           codestack="HTML / CSS / JavaScript / React / Next / Boostrap"
           projectname="Personal Website: Mikesenh"
@@ -42,7 +42,18 @@ export default function Portfolio() {
           sitelink=""
         />
         <Projbox
-          imagesrc="/starway_thumbnail.png"
+          imagesrc="/thumbnail/rpc_game_thumbnail.png"
+          imagealt="rock paper scissors game!"
+          codestack="HTML | CSS | TailwindCSS | Next | React | Figma | Make Confetti!"
+          projectname="Rock > Paper > Scissors"
+          date="5/12/2022 - 5/14/2022"
+          summary="It's a simple game that I made before, but the purpose was to practice using TailwindCSS as well as learn conditional rendering with React and basic logic from JS! As practice makes perfect!"
+          figmalink="https://www.figma.com/file/7DaAYx2OIuusLaChU2r3h1/RPS-Game?node-id=0%3A1"
+          githublink="https://github.com/Tewinsky/rockpaperscissors-rps-game"
+          sitelink="https://rockpaperscissors-rps-game.vercel.app/"
+        />
+        <Projbox
+          imagesrc="/thumbnail/starway_thumbnail.png"
           imagealt="starway a fictional design I had on the fly"
           codestack="N/A Only Design"
           projectname="Just Web Designing: Starway"
@@ -53,7 +64,7 @@ export default function Portfolio() {
           sitelink=""
         />
         <Projbox
-          imagesrc="/janadhi_thumbnail.png"
+          imagesrc="/thumbnail/janadhi_thumbnail.png"
           imagealt="Janadhi & Company was a Company I worked for!"
           codestack="HTML / CSS / JavaScript / Bootstrap"
           projectname="School Project: Janadhi & Company"
@@ -64,7 +75,7 @@ export default function Portfolio() {
           sitelink="https://janadhi.com/V9/index.html"
         />
         <Projbox
-          imagesrc="/shepherd_thumbnail.png"
+          imagesrc="/thumbnail/shepherd_thumbnail.png"
           imagealt="probate shepherd member probate attorneys"
           codestack="N/A Only Design"
           projectname="Client Design: Probate Shepherd"
@@ -74,6 +85,8 @@ export default function Portfolio() {
           githublink=""
           sitelink=""
         />
+        
+        
       </div>
     </>
   );
