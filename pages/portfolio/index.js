@@ -44,7 +44,7 @@ export default function Portfolio() {
         <Projbox
           imagesrc="/thumbnail/rpc_game_thumbnail.png"
           imagealt="rock paper scissors game!"
-          codestack="HTML | CSS | TailwindCSS | Next | React | Figma | Make Confetti!"
+          codestack="HTML / CSS / TailwindCSS / Next / React / Figma / Make Confetti!"
           projectname="Rock > Paper > Scissors"
           date="5/12/2022 - 5/14/2022"
           summary="It's a simple game that I made before, but the purpose was to practice using TailwindCSS as well as learn conditional rendering with React and basic logic from JS! As practice makes perfect!"
