@@ -63,13 +63,38 @@ export default function Portfolio() {
           githublink=""
           sitelink="https://janadhi.com/V9/index.html"
         />
+
+        <Projbox
+          imagesrc="/thumbnail/pokedex_thumbnail.png"
+          imagealt="pokedex"
+          codestack="HTML / CSS / JS / TailwindCSS / Next / React / Pokedex API"
+          projectname="3D Pizza Project"
+          date="5/16/2022 - 5/17/2022"
+          summary="More practice with TailwindCSS. I also learn how to properly fetch things from API and create a page for each Pokemon!"
+          figmalink=""
+          githublink=""
+          sitelink="https://pokedex-api-calling-1gs767015-tewinsky.vercel.app/"
+        />
+
+        <Projbox
+          imagesrc="/thumbnail/3Dpizza_thumbnail.png"
+          imagealt="3d pizza project"
+          codestack="Spline / 3D Model"
+          projectname="3D Pizza Project"
+          date="5/16/2022 - 5/17/2022"
+          summary="I'd just learned how to 3D model, here it is! (these 3D models can be deploy on websites)"
+          figmalink=""
+          githublink=""
+          sitelink="https://app.spline.design/file/a3b31d2a-4d91-4c5e-82b0-798f37de221c"
+        />
+
         <Projbox
           imagesrc="/thumbnail/corestrength_thumbnail.png"
           imagealt="UX UI of Core Strength"
           codestack="Figma / Only Design / UX / UI"
           projectname="UX Assignment: CoreStrength"
           date="1/29/2021 - 3/28/2021"
-          summary="I had a school assignment to update an old company website, It was a mixture of contacting the owner of the site and doing good free work! it was a whole lot of design and after that a whole lot of coding."
+          summary="Core Strength was a final assignment for one of my UX classes where they simulated a client and I as the UX Designer made a finished prototype from the wireframe stage to the finished product."
           figmalink="https://www.figma.com/file/sVCFmKHJGZwEnHjeQlPmYK/Final-Prototype-Done?node-id=302%3A5"
           githublink=""
           sitelink=""
@@ -80,25 +105,23 @@ export default function Portfolio() {
           codestack="Figma / Only Design / UX / UI"
           projectname="Just Web Designing: Starway"
           date="4/26/2022 - 4/28/2022"
-          summary="As you may know, this site is new, so I only want the best type of work on it. I figure I add in what I currently playing around with in the design department a company specializing in space travel! it's all theory, but a fun exercise non the less."
+          summary="Starway was something fun I was in the middle of designing, there is no client, I'm not making this for anyone. It is just a fun little design moment for me!"
           figmalink="https://www.figma.com/file/ezHQDY7Kiqn19O5Stv2sUy/Project-JS%3A-StarWay?node-id=6%3A2"
           githublink=""
           sitelink=""
         />
-        
+
         <Projbox
           imagesrc="/thumbnail/shepherd_thumbnail.png"
           imagealt="probate shepherd member probate attorneys"
           codestack="Figma / Only Design / UX / UI / Contract"
           projectname="Client Design: Probate Shepherd"
           date="2/29/2022 - 4/01/2022"
-          summary="my first ever contract work, where I was paid to design a website working with the client to get the image perfect! That's one of my real-world professional experience so far."
+          summary="I was paid to design a website, and work with a client to get the perfect prototype! That's one of my real-world experiences so far."
           figmalink="https://www.figma.com/file/uCbOoFhwCsL49kquaXZCAM/Untitled?node-id=0%3A1"
           githublink=""
           sitelink=""
         />
-        
-        
       </div>
     </>
   );
