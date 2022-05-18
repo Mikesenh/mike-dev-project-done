@@ -68,7 +68,7 @@ export default function Portfolio() {
           imagesrc="/thumbnail/pokedex_thumbnail.png"
           imagealt="pokedex"
           codestack="HTML / CSS / JS / TailwindCSS / Next / React / Pokedex API"
-          projectname="3D Pizza Project"
+          projectname="Pokemon Pokedex"
           date="5/16/2022 - 5/17/2022"
           summary="More practice with TailwindCSS. I also learn how to properly fetch things from API and create a page for each Pokemon!"
           figmalink=""
